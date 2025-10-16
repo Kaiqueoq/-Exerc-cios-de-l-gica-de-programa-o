@@ -1,21 +1,24 @@
 algoritmo "exercicio 8"
-// FunÁ„o :
-// Autor :
+// Fun√ß√£o :Elabora um algoritmo que efetue a apresenta√ß√£o do valor da convers√£o em real (R$) de um valor lido em d√≥lar 
+(US$). O algoritmo dever√° solicitar o valor da cota√ß√£o do d√≥lar e tamb√©m a quantidade de d√≥lares dispon√≠veis com o 
+usu√°rio.
+// Autor : kaique
 // Data : 25/09/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
       cotacao, qtdDolar, valorReal: real
 inicio
 
-  escreval("===== Conversor de DÛlar para Real =====")
-   escreva("Digite a cotaÁ„o do dÛlar (R$): ")
+  escreval("===== Conversor de D√≥lar para Real =====")
+   escreva("Digite a cota√ß√£o do d√≥lar (R$): ")
    leia(cotacao)
 
-   escreva("Digite a quantidade de dÛlares (US$): ")
+   escreva("Digite a quantidade de d√≥lares (US$): ")
    leia(qtdDolar)
 
    valorReal <- cotacao * qtdDolar
 
-   escreval("O valor em reais È: R$ ", valorReal:0:2)
-// SeÁ„o de Comandos 
+   escreval("O valor em reais √©: R$ ", valorReal:0:2)
+// Se√ß√£o de Comandos 
 fimalgoritmo
+
