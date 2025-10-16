@@ -1,8 +1,9 @@
 algoritmo "exercicio 6"
-// FunÁ„o :
-// Autor :
+// Fun√ß√£o : Ler dois valores para as vari√°veis A e B, e efetuar as trocas dos valores de forma que a vari√°vel A passe a possuir o 
+valor da vari√°vel B e a vari√°vel B passe a possuir o valor da vari√°vel A. Apresentar os valores trocados
+// Autor :kaique
 // Data : 25/09/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
   A,B, TEMP : inteiro
 inicio
@@ -10,15 +11,16 @@ escreval("digite ovalor A : ")
 leia(A)
 escreval("digite ovalor B : ")
 leia(B)
-escreval("o valor de A È :", A)
-escreval("o valor de B È :", B)
+escreval("o valor de A √© :", A)
+escreval("o valor de B √© :", B)
 escreval(" Efetuando a troca ")
 TEMP<-A
 A<-B
 B<-TEMP
-escreval("o valor de A È :", A)
-escreval("o valor de B È :", B)
+escreval("o valor de A √© :", A)
+escreval("o valor de B √© :", B)
 
 
-// SeÁ„o de Comandos 
+// Se√ß√£o de Comandos 
 fimalgoritmo
+
