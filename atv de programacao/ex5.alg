@@ -1,8 +1,9 @@
 algoritmo ex 5
-// Função :
-// Autor :
+// FunÃ§Ã£o :um algoritmo que le o nome de um aluno e as notas das trÃªs provas que ele obteve no semestre. No final 
+informa o nome do aluno e a sua mÃ©dia (aritmÃ©tica)
+// Autor :kaique
 // Data : 25/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 nome:caracter
 media,numero,contador:inteiro
@@ -22,9 +23,10 @@ media<- media + numero
 fimpara
 escreval("---------------")
 escreval("a media do aluno sera:", media/3)
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 
 
 
 
 fimalgoritmo
+
