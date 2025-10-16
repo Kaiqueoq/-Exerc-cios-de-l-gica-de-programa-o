@@ -1,8 +1,8 @@
 algoritmo "exercicio 1"
-// Função :
-// Autor : José Afranio
+// FunÃ§Ã£o :
+// Autor : 
 // Data : 23/09/2025
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
    n1, n2 : inteiro
 
@@ -18,8 +18,9 @@ escreval (n1)
 escreval (n2)
 
 escreval(" --------------------------- ")
-escreval("A soma dos números é: " , n1 + n2 )
+escreval("A soma dos nÃºmeros Ã©: " , n1 + n2 )
 
 
 
 fimalgoritmo
+
