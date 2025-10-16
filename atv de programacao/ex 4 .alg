@@ -1,8 +1,10 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o : um algoritmo que le o nome de um vendedor, o seu salÃ¡rio fixo e o total de vendas efetuadas por ele no 
+mÃªs (em dinheiro). Sabendo que este vendedor ganha 15% de comissÃ£o sobre suas vendas efetuadas, informa o 
+seu nome, o salÃ¡rio fixo e salÃ¡rio no final do mÃªs.
 // Autor :
 // Data : 23/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 nome : caracter
 salario : real
@@ -11,7 +13,7 @@ comissao : real
 salariofinal : real
 
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 escreval ("Digite seu nome :")
 leia(nome)
 
@@ -25,6 +27,7 @@ leia(nome)
  
  comissao <- 0.15 * vendas
  salariofinal <- comissao + vendas
- escreval("-- Salário Final (salário + comissão): ",salarioFinal)
+ escreval("-- SalÃ¡rio Final (salÃ¡rio + comissÃ£o): ",salarioFinal)
 
 fimalgoritmo
+
