@@ -1,6 +1,6 @@
 algoritmo "exercicio 1"
-// Função :
-// Autor : 
+// Função : um algoritmo que recebe dois números e exibe o resultado da sua soma
+// Autor : kaique
 // Data : 23/09/2025
 // Seção de Declarações
 var
@@ -22,5 +22,7 @@ escreval("A soma dos números é: " , n1 + n2 )
 
 
 
-fimalgoritmo
+
+fimalgoritmo 
+
 
