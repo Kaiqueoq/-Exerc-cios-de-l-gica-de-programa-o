@@ -1,8 +1,10 @@
 algoritmo "ex10"
-// FunÁ„o :
-// Autor :
+// Fun√ß√£o :m algoritmo que 
+receba um valor de uma compra e mostre o valor das presta√ß√µes.
+11. Fa√ßa um algoritmo que receba o pre√ßo de custo de um produto e mostre o valor de venda. Sabe-se que o pre√ßo d
+// Autor :kaique
 // Data : 29/09/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
    valorCompra, valorPrestacao: real
 inicio
@@ -11,11 +13,12 @@ inicio
 
    valorPrestacao <- valorCompra / 5
 
-   escreval("O valor de cada prestaÁ„o È: R$ ", valorPrestacao:0:2)
+   escreval("O valor de cada presta√ß√£o √©: R$ ", valorPrestacao:0:2)
 fimalgoritmo
 
 
 
 
-// SeÁ„o de Comandos 
+// Se√ß√£o de Comandos 
 fimalgoritmo
+
