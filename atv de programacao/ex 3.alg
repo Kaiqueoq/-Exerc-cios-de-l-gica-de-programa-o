@@ -1,5 +1,6 @@
 algoritmo "exercicio 3"
-// Fun��o :
+// Função : um algoritmo que determina o consumo médio de um automóvel sendo fornecido a distância total 
+percorrida pelo automóvel e o total de combustível gasto
 // Autor : kaique
 // Data : 23/09/2025
 
@@ -16,6 +17,7 @@ inicio
        consumo <- distancia / gasolina
         escreva (" o consumo medio sera : ",   gasolina: 0:5, " km/l")
          senao
-           escreva ( " erro.. nao � possivel calcular pois falta gasolina ")
+           escreva ( " erro.. nao é possivel calcular pois falta gasolina ")
              fimse
 fimalgoritmo
+
