@@ -1,12 +1,12 @@
 algoritmo "ex20"
-
+funcao : mostra o valor de um carro com desconto e valor de venda
 var
 programa, opc: caractere
 ano, total, total2000: inteiro
 valor, valorFinal, desconto: real
 
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 programa <- "S"
 enquanto programa <> "N" faca
     limpatela
@@ -24,9 +24,9 @@ enquanto programa <> "N" faca
     fimse
     desconto <- desconto * valor
     valorFinal <- valor - desconto
-    escreval("O valor do carro com desconto é de: ",valorFinal)
+    escreval("O valor do carro com desconto Ã© de: ",valorFinal)
     escreval("")
-    escreva("Deseja continuar calculando? (S) Sim - (N) Não - ")
+    escreva("Deseja continuar calculando? (S) Sim - (N) NÃ£o - ")
     leia(opc)
     escolha opc
         caso "S"
@@ -36,11 +36,12 @@ enquanto programa <> "N" faca
         outrocaso
             programa <- "S"
             limpatela
-            escreval("As opções disponíveis são apenas S ou N!!!")
+            escreval("As opÃ§Ãµes disponÃ­veis sÃ£o apenas S ou N!!!")
             leia(opc)
     fimescolha
 fimenquanto
-escreval("Foram calculados",total2000," carro(s) com ano até 2000")
+escreval("Foram calculados",total2000," carro(s) com ano atÃ© 2000")
 escreval("Total geral: ",total)
 
 fimalgoritmo
+
