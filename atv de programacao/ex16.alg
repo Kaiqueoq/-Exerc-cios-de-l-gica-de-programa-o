@@ -1,15 +1,16 @@
 algoritmo "ex16"
-/
+// funcao; mostra a media do aluno e se ele esta de recupercao etc...
+
 // Autor :
 // Data :
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 nome: caractere
 n1, n2, n3, media: real
 
 inicio
-// Seção de Comandos 
-escreval("Sistema de médias")
+// SeÃ§Ã£o de Comandos 
+escreval("Sistema de mÃ©dias")
 escreva("Digite a primeira nota:")
 leia(n1)
 escreva("Digite a segunda nota: ")
@@ -24,8 +25,9 @@ senao
    se media <= 5 entao
       escreval("Aluno reprovado!")
    senao
-      escreval("Aluno em recuperação...")
+      escreval("Aluno em recuperaÃ§Ã£o...")
    fimse
 fimse
 
 fimalgoritmo
+
