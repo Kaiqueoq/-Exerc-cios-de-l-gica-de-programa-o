@@ -1,11 +1,12 @@
 algoritmo "ex17"
+//funcao: declara se o numero e maior que 10 ou menor que 150 
     var
 x, num, intervalo: inteiro
 
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 para x de 1 ate 80 faca
-     escreva("Digite um número: ")
+     escreva("Digite um nÃºmero: ")
      leia(num)
      
      se num >= 10 entao
@@ -15,6 +16,7 @@ para x de 1 ate 80 faca
      fimse
 fimpara
 
-escreval("Ao total, foram digitados",intervalo," números no intervalo entre 10 e 150")
+escreval("Ao total, foram digitados",intervalo," nÃºmeros no intervalo entre 10 e 150")
  
 fimalgoritmo
+
