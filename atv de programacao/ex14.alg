@@ -1,8 +1,8 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o : fala qual numero e maior que o outro
 // Autor :
 // Data : 29/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 n1, n2 : inteiro
 inicio
@@ -11,18 +11,19 @@ leia(n1)
 escreva(" digite o numero 2 :")
 leia(n2)
 se n1 > n2 entao
-escreval (" n1 é maior que n2 ")
+escreval (" n1 Ã© maior que n2 ")
 fimse
 se n2 < n1 entao
-escreval (" n2 é menor que n1 ")
+escreval (" n2 Ã© menor que n1 ")
 fimse
 se n2 > n1 entao
-escreval (" n2 é maior que n1
+escreval (" n2 Ã© maior que n1
 .  ")
 fimse
 
 
 
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
 
