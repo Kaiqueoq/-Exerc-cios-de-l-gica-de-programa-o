@@ -1,23 +1,24 @@
 algoritmo "ex15"
-// Função : Faça um algoritmo que receba um número e diga se este número está no intervalo entre 100 e 200.
+// FunÃ§Ã£o : FaÃ§a um algoritmo que receba um nÃºmero e diga se este nÃºmero estÃ¡ no intervalo entre 100 e 200.
 // Autor :
-// Data : 1/12/2010
-// Seção de Declarações 
+// Data : 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 numero: inteiro
 
 inicio
-// Seção de Comandos 
-escreva("Digite um número: ")
+// SeÃ§Ã£o de Comandos 
+escreva("Digite um nÃºmero: ")
 leia(numero)
 se numero >= 100 entao
    se numero <= 200 entao
-      escreval("O número está no intervalo entre 100 e 200")
+      escreval("O nÃºmero estÃ¡ no intervalo entre 100 e 200")
    senao
-        escreval("O número não está no intervalo entre 100 e 200")
+        escreval("O nÃºmero nÃ£o estÃ¡ no intervalo entre 100 e 200")
    fimse
 senao
-   escreval("O número não está no intervalo entre 100 e 200")
+   escreval("O nÃºmero nÃ£o estÃ¡ no intervalo entre 100 e 200")
 fimse
 
 fimalgoritmo
+
