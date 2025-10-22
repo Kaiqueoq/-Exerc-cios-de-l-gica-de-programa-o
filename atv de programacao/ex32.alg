@@ -1,15 +1,16 @@
 algoritmo "ex32"
-
+//funcao:realizar opera√ß√µes matem√°ticas b√°sicas entre dois n√∫meros fornecidos pelo usu√°rio.
+//autor; kaique
 A, B: real
 C: caractere
 
 inicio
-// SeÁ„o de Comandos
-escreva("Digite o primeiro n˙mero: ")
+// Se√ß√£o de Comandos
+escreva("Digite o primeiro n√∫mero: ")
 leia(A)
-escreva("Digite o segundo n˙mero: ")
+escreva("Digite o segundo n√∫mero: ")
 leia(B)
-escreva("Digite a operaÁ„o desejada (+ - / *): ")
+escreva("Digite a opera√ß√£o desejada (+ - / *): ")
 leia(C)
 escolha C
     caso "+"
@@ -20,11 +21,12 @@ escolha C
         escreval("A*B =",A*B)
     caso "/"
         se B = 0 entao
-            escreval("Erro, um n˙mero n„o pode ser dividido por 0!")
+            escreval("Erro, um n√∫mero n√£o pode ser dividido por 0!")
         senao
             escreval("A/B =",A/B)
         fimse
     outrocaso
-        escreval("Operador n„o definido!")
+        escreval("Operador n√£o definido!")
 fimescolha
 fimalgoritmo
+
