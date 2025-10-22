@@ -1,29 +1,30 @@
 algoritmo "ex24"
-// Função :
-// Autor :
+// FunÃ§Ã£o :Ler uma quantidade informada de nÃºmeros e, para cada um, identificar e exibir se Ã© positivo, negativo ou zero.
+// Autor :kaique
 // Data : 14/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
     n, i, numero: inteiro
 inicio
-  escreva("Quantos números deseja digitar? ")
+  escreva("Quantos nÃºmeros deseja digitar? ")
    leia(n)
 
    para i de 1 ate n faca
-      escreva("Digite o ", i, "º número: ")
+      escreva("Digite o ", i, "Âº nÃºmero: ")
       leia(numero)
 
       se (numero > 0) entao
-         escreval("O número é positivo.")
+         escreval("O nÃºmero Ã© positivo.")
       senao
          se (numero < 0) entao
-            escreval("O número é negativo.")
+            escreval("O nÃºmero Ã© negativo.")
          senao
-            escreval("O número é zero.")
+            escreval("O nÃºmero Ã© zero.")
          fimse
       fimse
    fimpara
 
 fimalgoritmo
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
