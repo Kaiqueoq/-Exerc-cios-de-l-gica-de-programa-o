@@ -1,4 +1,5 @@
 algoritmo "ex37"
+funcao : calcular o peso ideal de uma pessoa com base no sexo, idade e altura.
 
 var
 nome, sexo: caractere
@@ -6,7 +7,7 @@ idade, x: inteiro
 altura, peso: real
 
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 escreva("Digite o nome: ")
 leia(nome)
 x <- 1
@@ -63,3 +64,4 @@ escreval("Peso Ideal: ",peso)
 
 
 fimalgoritmo
+
