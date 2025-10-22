@@ -1,14 +1,15 @@
 algoritmo "ex33"
+funcao:verificar se tr√™s valores informados pelo usu√°rio podem formar os lados de um tri√¢ngulo e, caso possam, identificar o tipo de tri√¢ngulo.
 
 var
 la, lb, lc, triangulo: inteiro
 inicio
-// SeÁ„o de Comandos 
-escreva("Digite o lado A do tri‚ngulo: ")
+// Se√ß√£o de Comandos 
+escreva("Digite o lado A do tri√¢ngulo: ")
 leia(la)
-escreva("Digite o lado B do tri‚ngulo: ")
+escreva("Digite o lado B do tri√¢ngulo: ")
 leia(lb)
-escreva("Digite o lado C do tri‚ngulo: ")
+escreva("Digite o lado C do tri√¢ngulo: ")
 leia(lc)
 
 se la < (lc+lb) entao
@@ -26,17 +27,18 @@ fimse
 se triangulo = 1 entao
     se la = lb entao
         se lb = lc entao
-            escreval("… um tri‚ngulo equil·tero!")
+            escreval("√â um tri√¢ngulo equil√°tero!")
         senao
-            escreval("… um tri‚ngulo isÛrcele")
+            escreval("√â um tri√¢ngulo is√≥rcele")
         fimse
     senao
         se lb = lc entao
-            escreval("… um tri‚ngulo isÛrcele")
+            escreval("√â um tri√¢ngulo is√≥rcele")
         senao
-            escreval("… um tri‚ngulo escaleno")
+            escreval("√â um tri√¢ngulo escaleno")
         fimse
     fimse
 fimse
 
 fimalgoritmo
+
