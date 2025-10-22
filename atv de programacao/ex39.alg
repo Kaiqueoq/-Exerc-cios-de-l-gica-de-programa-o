@@ -1,16 +1,16 @@
 algoritmo "ex39"
-
+//funcao: classificar uma pessoa em um grupo de risco numÃ©rico com base na idade e no nÃ­vel de risco informado.
 var
 idade, grupo: inteiro
 nome, grupoRisco: caractere
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 escreva("Digite o nome: ")
 leia(nome)
 escreva("Digite a idade: ")
 leia(idade)
 escreval("Informe o Grupo de risco: ")
-escreval("(B)aixo / (M)édio / (A)lto ")
+escreval("(B)aixo / (M)Ã©dio / (A)lto ")
 leia(grupoRisco)
 
 se (idade >= 17) e (idade <= 70) entao
@@ -77,3 +77,4 @@ escreval("Idade: ",idade)
 escreval("Categoria: ",grupo)
 
 fimalgoritmo
+
