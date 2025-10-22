@@ -1,4 +1,5 @@
 algoritmo "ex40"
+//funcao: receber uma matriz 4x4, criar uma segunda matriz com algumas linhas trocadas, exibir ambas e calcular somas relacionadas Ã s matrizes.
 
 var
 mat1: vetor[1..4,1..4] de inteiro
@@ -7,7 +8,7 @@ x, y: inteiro
 soma1, soma2: inteiro
 
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 
 // Recebimento dos valores da matriz
 para x de 1 ate 4 faca
@@ -17,7 +18,7 @@ para x de 1 ate 4 faca
     fimpara
 fimpara
 
-// Troca entre as posições entre duas matrizes
+// Troca entre as posiÃ§Ãµes entre duas matrizes
 para x de 1 ate 4 faca
     mat2[1,x] <- mat1[4,x]
     mat2[4,x] <- mat1[1,x]
@@ -28,7 +29,7 @@ para x de 1 ate 4 faca
     mat2[3,x] <- mat1[3,x]
 fimpara
 
-// Impressão dos valores das matrizes
+// ImpressÃ£o dos valores das matrizes
 limpatela
 escreval("Matriz original: ")
 para x de 1 ate 4 faca
@@ -60,3 +61,4 @@ escreval("Soma dos valores da matriz 1 menos a soma da matriz 2 = ",soma1-soma2)
 
  
 fimalgoritmo
+
