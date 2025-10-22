@@ -1,29 +1,30 @@
 algoritmo "ex25"
-// Função :
-// Autor :
+// FunÃ§Ã£o :Ler dois nÃºmeros e verificar se sÃ£o iguais ou diferentes; caso sejam diferentes, informar qual deles Ã© o m
+// Autor :kaique
 // Data : 14/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
       num1, num2: real
 inicio
-escreva("Digite o primeiro número: ")
+escreva("Digite o primeiro nÃºmero: ")
    leia(num1)
 
-   escreva("Digite o segundo número: ")
+   escreva("Digite o segundo nÃºmero: ")
    leia(num2)
 
    se (num1 = num2) entao
-      escreval("Os números são iguais.")
+      escreval("Os nÃºmeros sÃ£o iguais.")
    senao
       se (num1 > num2) entao
-         escreval("Os números são diferentes.")
-         escreval("O primeiro número (", num1, ") é maior que o segundo (", num2, ").")
+         escreval("Os nÃºmeros sÃ£o diferentes.")
+         escreval("O primeiro nÃºmero (", num1, ") Ã© maior que o segundo (", num2, ").")
       senao
-         escreval("Os números são diferentes.")
-         escreval("O segundo número (", num2, ") é maior que o primeiro (", num1, ").")
+         escreval("Os nÃºmeros sÃ£o diferentes.")
+         escreval("O segundo nÃºmero (", num2, ") Ã© maior que o primeiro (", num1, ").")
       fimse
    fimse
 
 fimalgoritmo
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 fimalgoritmo
+
