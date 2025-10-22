@@ -1,12 +1,13 @@
 algoritmo "ex34"
+funcao:calcular o salÃ¡rio de um professor com base no seu nÃ­vel e nas horas trabalhadas.
 var
 nivel, horas: inteiro
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 escreval(">>>>> Escola APRENDER <<<<<")
-escreva("Digite o nível do professor (1/2/3): ")
+escreva("Digite o nÃ­vel do professor (1/2/3): ")
 leia(nivel)
-escreva("Digite o número de horas trabalhadas: ")
+escreva("Digite o nÃºmero de horas trabalhadas: ")
 leia(horas)
 
 se nivel = 1 entao
@@ -20,3 +21,4 @@ senao
 fimse
 
 fimalgoritmo
+
