@@ -1,4 +1,5 @@
 algoritmo "ex38"
+//funcao: calcular a m√©dia ponderada das notas de um aluno e classific√°-lo de acordo com essa m√©dia.
 
 var
 nota1, nota2, nota3: real
@@ -7,14 +8,14 @@ nome, classificacao: caractere
 matricula: inteiro
 
 inicio
-// SeÁ„o de Comandos 
+// Se√ß√£o de Comandos 
 escreva("Digite o nome: ")
 leia(nome)
-escreva("Informe a matrÌcula: ")
+escreva("Informe a matr√≠cula: ")
 leia(matricula)
-escreva("Digite a nota do trabalho de laboratÛrio: ")
+escreva("Digite a nota do trabalho de laborat√≥rio: ")
 leia(nota1)
-escreva("Digite a nota da avaliaÁ„o semestral: ")
+escreva("Digite a nota da avalia√ß√£o semestral: ")
 leia(nota2)
 escreva("Digite a nota do exame final: ")
 leia(nota3)
@@ -42,9 +43,10 @@ fimse
 
 limpatela
 escreval("Nome: ",nome)
-escreval("MatrÌcula: ",matricula)
+escreval("Matr√≠cula: ",matricula)
 escreval("Nota final: ",media)
-escreval("ClassificaÁ„o: ",classificacao)
+escreval("Classifica√ß√£o: ",classificacao)
 
 
 fimalgoritmo
+
